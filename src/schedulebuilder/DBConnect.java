@@ -8,9 +8,10 @@ package schedulebuilder;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.DriverManager;
+import java.sql.Statement;
 
-import com.mysql.cj.api.jdbc.Statement;
-import com.mysql.cj.jdbc.result.ResultSetMetaData;
+
 
 /**
  *
@@ -30,5 +31,6 @@ public class DBConnect {
     public static String getPassword(){
         return password;
     }
+   
     
 }
