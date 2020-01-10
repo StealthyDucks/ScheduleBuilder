@@ -8,11 +8,9 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="schedulebuilder.FXMLDocumentController">
+<AnchorPane id="AnchorPane" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="schedulebuilder.FXMLDocumentController">
     <children>
-        <Button fx:id="button" layoutX="126" layoutY="90" onAction="#handleButtonAction" text="Click Me!" />
-        <Label fx:id="label" layoutX="69.0" layoutY="27.0" minHeight="16" minWidth="69" prefHeight="25.0" prefWidth="115.0" text="Schedule Visualizer" />
-      <MenuBar layoutY="2.0" prefHeight="25.0" prefWidth="320.0">
+      <MenuBar layoutY="2.0" prefHeight="32.0" prefWidth="1280.0" AnchorPane.bottomAnchor="688.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
         <menus>
           <Menu mnemonicParsing="false" text="File">
             <items>
@@ -27,17 +25,22 @@
           <Menu mnemonicParsing="false" text="Help" />
         </menus>
       </MenuBar>
-      <SplitPane dividerPositions="0.6666666666666666" layoutY="50.0" prefHeight="152.0" prefWidth="320.0">
+      <SplitPane dividerPositions="0.8067292644757433" layoutY="50.0" prefHeight="438.0" prefWidth="691.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="27.0">
         <items>
-          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="691.0" prefWidth="992.0">
                <children>
-                  <Button layoutX="67.0" layoutY="75.0" mnemonicParsing="false" text="Open your file" />
-                  <Text layoutX="102.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                  <Button layoutX="448.0" layoutY="316.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="231.0" text="Open your file" AnchorPane.bottomAnchor="315.0" AnchorPane.leftAnchor="448.0" AnchorPane.rightAnchor="349.0" AnchorPane.topAnchor="316.0">
+                     <font>
+                        <Font size="24.0" />
+                     </font></Button>
+                  <Text layoutX="463.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Schedule Visualizer" AnchorPane.bottomAnchor="668.0" AnchorPane.leftAnchor="462.34375" AnchorPane.rightAnchor="463.65625" AnchorPane.topAnchor="6.0" />
                </children>
             </AnchorPane>
-          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" />
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="474.0" prefWidth="400.0">
+               <children>
+                  <Text layoutX="91.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Recent Files" />
+               </children></AnchorPane>
         </items>
       </SplitPane>
-      <Label layoutX="240.0" layoutY="31.0" text="Recent Files " />
     </children>
 </AnchorPane>
