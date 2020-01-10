@@ -1,4 +1,8 @@
 /*
+<<<<<<< HEAD:src/schedulebuilder/ScheduleBuilder.java
+=======
+Hao test
+>>>>>>> Hao:ScheduleBuilder/src/schedulebuilder/ScheduleBuilder.java
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
@@ -13,7 +17,11 @@ import javafx.stage.Stage;
 
 /**
  *
+<<<<<<< HEAD:src/schedulebuilder/ScheduleBuilder.java
  * @author Braden
+=======
+ * @author Hao Ran
+>>>>>>> Hao:ScheduleBuilder/src/schedulebuilder/ScheduleBuilder.java
  */
 public class ScheduleBuilder extends Application {
     
