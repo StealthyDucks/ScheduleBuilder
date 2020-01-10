@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="720.0" prefWidth="1280.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="schedulebuilder.Screen2Controller">
+   <children>
+      <MenuButton id="menuButton" mnemonicParsing="false" prefHeight="60.0" prefWidth="160.0" text="Menu" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Action 1" />
+          <MenuItem mnemonicParsing="false" text="Action 2" />
+            <Menu mnemonicParsing="false" text="Unspecified Menu">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Action 1" />
+              </items>
+            </Menu>
+        </items>
+         <font>
+            <Font name="SansSerif Regular" size="24.0" />
+         </font>
+      </MenuButton>
+   </children>
+</AnchorPane>
